@@ -1,0 +1,278 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, figure, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+a img {
+  border: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1;
+  color: #000;
+  background: orange;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit;
+}
+
+input,
+button,
+textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #DADAE7;
+  width: 100%;
+  margin: 2em 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  font-size: 12px;
+  line-height: 1.4;
+  visibility: visible;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+.tooltip.in {
+  filter: alpha(opacity=90);
+  opacity: .9;
+}
+
+.tooltip.top {
+  padding: 5px 0;
+  margin-top: -3px;
+}
+
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 4px;
+}
+
+.hide {
+  display: none !important;
+}
+
+.slider {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slider.slider-horizontal {
+  height: 20px;
+  width: 100%;
+}
+
+.slider.slider-horizontal .slider-track {
+  height: 10px;
+  width: 100%;
+  margin-top: -16px;
+  top: 50%;
+  left: 0;
+}
+
+.slider.slider-horizontal .slider-selection {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+
+.slider.slider-horizontal .slider-handle {
+  margin-left: -10px;
+  margin-top: -5px;
+}
+
+.slider.slider-horizontal .slider-handle.triangle {
+  border-width: 0 10px 10px 10px;
+  width: 0;
+  height: 0;
+  border-bottom-color: #0480be;
+  margin-top: 0;
+}
+
+.slider.slider-vertical {
+  height: 210px;
+  width: 20px;
+}
+
+.slider.slider-vertical .slider-track {
+  width: 10px;
+  height: 100%;
+  margin-left: -5px;
+  left: 50%;
+  top: 0;
+}
+
+.slider.slider-vertical .slider-selection {
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.slider.slider-vertical .slider-handle {
+  margin-left: -5px;
+  margin-top: -10px;
+}
+
+.slider.slider-vertical .slider-handle.triangle {
+  border-width: 10px 0 10px 10px;
+  width: 1px;
+  height: 1px;
+  border-left-color: #0480be;
+  margin-left: 0;
+}
+
+.slider input {
+  display: none;
+}
+
+.slider-track {
+  position: absolute;
+  cursor: pointer;
+  background-color: #fff;
+  background-repeat: repeat-x;
+  border-radius: 4px;
+}
+
+.slider-selection {
+  position: absolute;
+  background-color: #A8CEFF;
+  background-repeat: repeat-x;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.slider-handle {
+  position: absolute;
+  top: -6px;
+  width: 20px;
+  height: 20px;
+  background-color: #67A2EE;
+  background-repeat: repeat-x;
+  border: 0px solid transparent;
+}
+
+.slider-handle.round {
+  border-radius: 20px;
+}
+
+.slider-handle.triangle {
+  background: transparent none;
+}
+
+.slider .tooltip.top {
+  margin-top: -55px;
+}
+
+.slider .tooltip-inner {
+  white-space: nowrap;
+  width: 60px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.c-slider {
+  margin: 2.5em auto 1em;
+}
+
+/*# sourceMappingURL=styles.css.map */
